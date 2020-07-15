@@ -1,0 +1,29 @@
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace components "components.*";
+
+/*
+Fonts
+ */
+
+@font-face {
+    src: url("/assets/fonts/Avenir-Regular.otf");
+    fontFamily: AvenirEmbedded;
+    fontWeight: normal;
+    fontStyle: normal;
+}
+
+@font-face {
+    src: url("/assets/fonts/Avenir-Bold.otf");
+    fontFamily: AvenirEmbedded;
+    fontWeight: bold;
+    fontStyle: normal;
+}
+
+s|Label {
+    fontFamily: AvenirEmbedded;
+    fontWeight: normal;
+    fontSize: 14;
+    color: #2d3436;
+    paddingTop: 1;
+}

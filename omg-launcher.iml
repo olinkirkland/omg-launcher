@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="omg-launcher">
     <configurations>
-      <configuration name="omg-launcher" target-platform="Desktop" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out/production/omg-launcher">
+      <configuration name="omg-launcher" target-platform="Desktop" main-class="Launcher" output-file="omg-launcher.swf" output-folder="$MODULE_DIR$/out/production/omg-launcher">
         <dependencies target-player="30.0">
           <sdk name="ApacheAirMerged" />
         </dependencies>
